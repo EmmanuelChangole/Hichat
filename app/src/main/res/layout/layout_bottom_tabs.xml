@@ -1,0 +1,24 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="50dp">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+         <com.google.android.material.tabs.TabLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@color/Orange_fade"
+             android:id="@+id/tabsBottom">
+
+
+         </com.google.android.material.tabs.TabLayout>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </RelativeLayout>
+
+</merge>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ichat</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="sign_out">Sign out</string>
+    <string name="confirm_password">Confirm password</string>
+                   <!--DataBase names-->
+    <string name="dbName_users">users</string>
+    <string name="dbName_Account_Settings">user_account_settings</string>
+    <string name="dbName_user_photo">user_photos</string>
+    <string name="dbName_photo">photos</string>
+                    <!--DataBase fields-->
+    <string name="user_name_field">user_name</string>
+    <string name="user_email_field">email</string>
+    <string name="phone_number">phone_number</string>
+    <string name="location">description</string>
+    <string name="profile_photo">profile_photo</string>
+
+    <string name="gallery">GALLERY</string>
+    <string name="photo">PHOTO</string>
+    <string name="profile_fragments">Profile Fragments</string>
+    <string name="calling_Activity">calling_Activity</string>
+    <string name="profile_Activity">Profile Activity</string>
+    <string name="next">Next</string>
+    <string name="selectedImage">selected_image</string>
+    <string name="new_photo">new_photo</string>
+    <string name="return_to_fragment">return_to_fragment</string>
+    <string name="message_sender">Sender</string>
+    <string name="message_date">Date</string>
+    <string name="message_content">Content</string>
+    <string name="message_recipient">Recipient</string>
+    <string name="message_hint">Type your message here</string>
+    <string name="message_send">Send</string>
+    <string name="message_profile">message profile</string>
+    <string name="message_view">Messages</string>
+    <string name="message_notification">Notifications</string>
+    <string name="error_email">Please enter your email</string>
+    <string name="error_password">Please enter your password</string>
+    <string name="error_password_length">Enter password with six minimum character</string>
+    <string name="error_username">Please enter username</string>
+    <string name="error_username_length">Enter your name with four minmum character</string>
+    <string name="error_confirm_password">The password does not match</string>
+
+
+</resources>

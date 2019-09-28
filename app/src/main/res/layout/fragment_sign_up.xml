@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Home.HomeActivity"
+    android:background="@drawable/login_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="106dp">
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayout1"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInput1"
+            android:layout_width="400dp"
+            android:textColorHint="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/inputSignUpEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="15dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="20dp"
+                android:textColorHighlight="#FFFFFF" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInput2"
+            android:layout_below="@id/textInput1"
+            android:layout_width="400dp"
+            android:textColorHint="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/inputSignUpUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_login_username"
+                android:drawablePadding="15dp"
+                android:hint="User Name"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="20dp"
+                android:textColorHighlight="#FFFFFF" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInput3"
+            android:layout_width="400dp"
+            android:textColorHint="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textInput2"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/inputSignUpPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_marginBottom="8dp"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_password"
+                android:drawablePadding="15dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInput4"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:layout_below="@id/textInput3"
+            android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/inputSignUpConfrimPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_password"
+                android:drawablePadding="15dp"
+                android:hint="Confrim Password"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:layout_width="300dp"
+            android:onClick="registerNewUser"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:id="@+id/butSignup"
+            android:layout_below="@id/textInput4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/login_button"
+            android:text="Sign up"
+            android:textAllCaps="false" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

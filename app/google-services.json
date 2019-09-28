@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "236773345761",
+    "firebase_url": "https://ummoja-a577b.firebaseio.com",
+    "project_id": "ummoja-a577b",
+    "storage_bucket": "ummoja-a577b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236773345761:android:3f3da0a8f38d9c04",
+        "android_client_info": {
+          "package_name": "meetup.com.hichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236773345761-46u47olamj6ak66epevujnst6nglthpg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "meetup.com.hichat",
+            "certificate_hash": "6ea37eb82ba9df9e9968edd2d01e68a9c7ededd5"
+          }
+        },
+        {
+          "client_id": "236773345761-aro3q9k4er7968iodeqhm0uupbd6t4le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkvRrOGfp0dg1NtiLxvkYbPDk6E-dRhAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236773345761-aro3q9k4er7968iodeqhm0uupbd6t4le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
